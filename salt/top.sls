@@ -1,6 +1,12 @@
 base:
   '965292755.acs.edcc.edu':
-        - apache
+    - apache
+       
+    - users
 
+    - htop
 
+    - filecryttab
+
+    - hostname
 

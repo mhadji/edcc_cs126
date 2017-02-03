@@ -1,0 +1,51 @@
+965292755.acs.edcc.edu:
+----------
+          ID: webserver-package
+    Function: pkg.installed
+        Name: httpd
+      Result: True
+     Comment: Package httpd is already installed.
+     Started: 16:24:22.873469
+    Duration: 1657.404 ms
+     Changes:   
+----------
+          ID: majidd
+    Function: user.present
+      Result: True
+     Comment: User majidd is present and up to date
+     Started: 16:24:24.532641
+    Duration: 1.788 ms
+     Changes:   
+----------
+          ID: Centos-package
+    Function: pkg.installed
+        Name: htop
+      Result: True
+     Comment: Package htop is already installed.
+     Started: 16:24:24.534509
+    Duration: 0.354 ms
+     Changes:   
+----------
+          ID: deploy the crypttab file
+    Function: file.managed
+        Name: /etc/crypttab
+      Result: True
+     Comment: File /etc/crypttab is in the correct state
+     Started: 16:24:24.536683
+    Duration: 2.555 ms
+     Changes:   
+----------
+          ID: system
+    Function: network.system
+      Result: True
+     Comment: Global network settings are up to date.
+     Started: 16:24:24.539773
+    Duration: 6.084 ms
+     Changes:   
+
+Summary
+------------
+Succeeded: 5
+Failed:    0
+------------
+Total states run:     5
