@@ -11,3 +11,5 @@ base:
     - hostname
     
     - iptables
+
+    - selinux
