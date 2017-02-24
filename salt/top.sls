@@ -15,3 +15,7 @@ base:
     - selinux
 
     - sshd
+
+    - nfs
+
+    - nfs-config
