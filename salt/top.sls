@@ -13,3 +13,5 @@ base:
     - iptables
 
     - selinux
+
+    - sshd

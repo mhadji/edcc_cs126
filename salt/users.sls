@@ -1,4 +1,4 @@
-majidd:
+majid:
   user:
     - present
     - groups:
