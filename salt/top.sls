@@ -19,3 +19,7 @@ base:
     - nfs
 
     - nfs-config
+
+    - samba
+
+    - smbconf

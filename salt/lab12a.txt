@@ -1,0 +1,15 @@
+Anonymous login successful
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	ourshare        Disk      Our Share
+	smbshare        Disk      smb var Share
+	IPC$            IPC       IPC Service (Samba 4.4.4)
+Anonymous login successful
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
